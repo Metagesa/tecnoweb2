@@ -1,0 +1,144 @@
+/* Custom Stylesheet */
+/**
+* Use this file to override Materialize files so you can update
+* the core Materialize files in the future
+*
+* Made By MaterializeCSS.com
+*/
+
+.fondo {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-color: white;
+  background-image: url(img/fondo.jpg);
+  background-blend-mode: luminosity;
+}
+
+.titulo h1 {
+  width: 100vw;
+  text-align: center;
+  color: white;
+}
+
+a {
+  color: #f0f;
+}
+
+p {
+
+  line-height: 2rem;
+}
+
+.nav-wrapper {
+  background-color: black;
+}
+
+.nav-wrapper a {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.nav-wrapper a:hover {
+  background-color: #333;
+}
+
+.presentacion {
+  margin: 5vw;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  padding: 5vh;
+  width: 90vw;
+  height: auto;
+  background-color: #436;
+  text-align: center;
+  color: white;
+  border-bottom: 0.1px solid #ddd;
+  border-radius: 0.4vw;
+}
+
+.presentacion p {
+  font-size: 130%;
+}
+
+.presentacion iframe {
+  width: 50vw;
+  height: 40vh;
+}
+
+.TPs {
+  margin: 5vw;
+  margin-top: 2vh;
+  width: 90vw;
+  height: auto;
+}
+
+.collapsible-body {
+  margin: 0;
+  padding: 0;
+  background-color: #629;
+}
+
+.collapsible-body p {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.card {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 20vw;
+  height: auto;
+  background-color: #436;
+  color: white;
+}
+
+.card-title {
+  color: #ccc;
+}
+
+.card .card-image img {
+  display: block;
+  border-radius: 2px 2px 0 0;
+  position: relative;
+  width: 18vw;
+  margin: 1vw;
+}
+
+.card-reveal .card-title {
+  color: #888;
+}
+
+.card .card-reveal {
+  color: #333;
+  background-color: #436;
+}
+
+.collapsible {
+  border: 0;
+}
+
+.collapsible-header {
+  background-color: #436;
+  color: white;
+  height: 5vw;
+  border-radius: 0.4vw;
+}
+.collapsible-header i {
+  margin: 1vw;
+}
+
+.consigna {
+  margin-top: 5vh;
+}
+
+.consigna p {
+  font-size: 1.5vw;
+  font-kerning: 5px;
+  margin-bottom: 1vw;
+}
