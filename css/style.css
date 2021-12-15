@@ -75,6 +75,7 @@ p {
   margin-top: 2vh;
   width: 90vw;
   height: auto;
+  margin-bottom: 0;
 }
 
 .collapsible-body {
@@ -121,6 +122,7 @@ p {
 
 .collapsible {
   border: 0;
+  margin-bottom: 0;
 }
 
 .collapsible-header {
@@ -141,4 +143,65 @@ p {
   font-size: 1.5vw;
   font-kerning: 5px;
   margin-bottom: 1vw;
+}
+
+canvas {
+  display: block;
+  position: inherit;
+}
+
+.botonPlay {
+  text-align: center;
+}
+
+.modal-trigger {
+  display: block;
+  text-align: center;
+  font-size: 150%;
+  width: 20%;
+  margin-top: 20%;
+  margin-left: 50%;
+}
+
+.tituloJuego h1 {
+  width: 99vw;
+}
+
+.p5 {
+  text-align: center;
+  width: 800px;
+  height: 600px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.p5 button {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0b5c8f;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 3px 3px #333;
+}
+
+.p5 button:hover {
+  background-color: #083f62;
+}
+
+.p5 button:active {
+  background-color: #083f62;
+  box-shadow: 0 0 3px #333;
+  transform: scale(1.1,1.1);
+  transition: transform 0.1s;
 }

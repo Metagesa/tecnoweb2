@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="js/juego/p5.js"></script>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>TP2 Tecno Web</title>
@@ -9,12 +10,12 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-<div class="fondo">
+  <div class="fondo">
 
-</div>
+  </div>
 
   <div class="titulo">
- <div class="navbar-fixed">
+    <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper">
           <a href="#" class="brand-logo">Juan Lutz</a>
@@ -24,8 +25,8 @@
             <li><a href="https://steamcommunity.com/id/Metagesa/" target="_blank" rel="noopener noreferrer">Steam</a></li>
           </ul>
         </div>
-          </div>
-      </nav>
+      </div>
+    </nav>
   </div>
 
   <div class="presentacion">
@@ -195,6 +196,34 @@
               <div class="consigna">
 
                 <p>Consigna: crear un video juego hecho completamente en objetos relacionado con la aventura gráfica del TP4 . El video juego debe ser pensado para reemplazar una de las pantallas de conflicto de la aventura gráfica.</p>
+
+                <div class="botonPlay">
+
+                  <!-- Modal Trigger -->
+                  <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1"><b>Jugar</b></a>
+
+                  <!-- Modal Structure -->
+                  <div id="modal1" class="modal">
+                    <div class="modal-content">
+                      <h4>Videojuego TP5</h4>
+                      <div class="p5" id="p5">
+
+                        <script src="js/juego/addScreenPositionFunction.js"></script>
+                        <script src="js/juego/enemigos.js"></script>
+                        <script src="js/juego/mapa.js"></script>
+                        <script src="js/juego/heroe.js"></script>
+                        <script src="js/juego/disparo.js"></script>
+                        <script src="js/juego/boton.js"></script>
+                        <script src="js/juego/juego.js"></script>
+                        <script id="jueguito" src="js/juego/sketch.js"></script>
+
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
+                    </div>
+                  </div>
+                </div>
 
               </div>
             </div>
