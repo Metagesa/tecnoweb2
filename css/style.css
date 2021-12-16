@@ -163,6 +163,14 @@ canvas {
   margin-left: 50%;
 }
 
+.modal, .open {
+  margin-top: 0 !important;
+  top: 3vh !important;
+  max-height: 100% !important;
+  overflow-y: auto !important;
+  height: 94vh !important;
+}
+
 .tituloJuego h1 {
   width: 99vw;
 }
